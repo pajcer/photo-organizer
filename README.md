@@ -1,2 +1,2 @@
 # photo-organizer
-Forók rendezése létrehozás dátuma alapján
+Fotók rendezése létrehozás dátuma alapján
