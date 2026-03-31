@@ -7,7 +7,16 @@ from PIL.ExifTags import TAGS
 
 # --- Mappa bekérés ---
 forras = Path(input("Add meg a forrás mappát: ").strip())
+
+if not forras.exists():
+    print("A forrás mappa nem létezik!")
+    exit()
+    
 cel = Path(input("Add meg a cél mappát: ").strip())
+
+if not cel.exists():
+    print("A Cél mappa nem létezik!")
+    exit()
 
 # --- Megerősítés ---
 print("\n--- ÖSSZEFOGLALÓ ---")
