@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Photo Organizer
 
 Egyszerű Python script képek és videók rendezésére dátum alapján (év/hónap).
@@ -16,7 +15,4 @@ Egyszerű Python script képek és videók rendezésére dátum alapján (év/h�
 ```bash
 pip install -r requirements.txt
 python photo_organizer.py
-=======
-# photo-organizer
-Fotók rendezése létrehozás dátuma alapján
->>>>>>> 104f022562b71ff12c61dab7bd1d04a18c224a5f
+
